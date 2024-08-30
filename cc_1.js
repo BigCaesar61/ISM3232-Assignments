@@ -43,3 +43,18 @@ console.log("divide", accountBalance);
 
 accountBalance %= 100; //Find the remandier of the account if divided by 100
 console.log("modulus", accountBalance);
+
+
+//Task 4: Comparison Operators
+
+let employeeScore1 = 50;
+let employeeScore2 = 25;
+
+
+console.log("Employee 1 > Employee 2:", employeeScore1 > employeeScore2);
+console.log("Employee 1 < Employee 2:", employeeScore1 < employeeScore2);
+console.log("Employee 1 >= Employee 2:", employeeScore1 >= employeeScore2);
+console.log("Employee 1 <= Employee 2:", employeeScore1 <= employeeScore2);
+console.log("Employee 1 === Employee 2:", employeeScore1 === employeeScore2);
+console.log("Employee 1 !== Employee 2:", employeeScore1 !== employeeScore2);
+
