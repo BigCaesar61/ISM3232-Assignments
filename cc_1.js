@@ -30,16 +30,16 @@ console.log(products, productDetails);
 let accountBalance = 10000
 
 accountBalance += 500; //deposit
-console.log(deposit, accountBalance);
+console.log("deposit", accountBalance);
 
 accountBalance -= 250; //withdrawl
-console.log(withdrawl, accountBalance);
+console.log("withdrawl", accountBalance);
 
 accountBalance *= 1.05; //5% interest rate
-console.log(interest, accountBalance);
+console.log("interest", accountBalance);
 
 accountBalance /= 2; //dividing account in half if there was maybe two customers using the same account
-console.log(divide, accountBalance);
+console.log("divide", accountBalance);
 
 accountBalance %= 100; //Find the remandier of the account if divided by 100
-console.log(modulus, accountBalance);
+console.log("modulus", accountBalance);
