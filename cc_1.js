@@ -58,3 +58,20 @@ console.log("Employee 1 <= Employee 2:", employeeScore1 <= employeeScore2);
 console.log("Employee 1 === Employee 2:", employeeScore1 === employeeScore2);
 console.log("Employee 1 !== Employee 2:", employeeScore1 !== employeeScore2);
 
+//Task 5: Logical Operators
+
+let hasKeyCard = true;
+let hasPermission = false;
+
+
+let canAccessSecureAre = hasKeyCard && hasPermission
+console.log("Access to secure areas:", canAccessSecureAre); //prints true or false if they have keycard and perms or not
+
+let canAccessGeneralArea = hasKeyCard || hasPermission;
+console.log("Has access to unrestricted areas:", canAccessGeneralArea); //allows access to general area with keycard
+
+let reversedPermisiion = !hasPermission
+console.log("Reversed Permission:", reversedPermisiion); //reverses permission value and checks again
+
+let accessWithReversedPermssion = hasKeyCard && reversedPermisiion;
+console.log("Has access with reversed permission:", accessWithReversedPermssion); //if someone has reversed perms and keycard it prints true
